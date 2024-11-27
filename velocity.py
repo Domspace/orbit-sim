@@ -12,7 +12,7 @@ class Velocity:
         return
 
     def add_velocity(self, v):
-        print("added", v)
+        #print("added", v)
         self.x += v[0]
         self.y += v[1]
         return

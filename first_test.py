@@ -23,7 +23,7 @@ t2.hideturtle()
 def event_loop():
     do_gravity(t, velocity, (0, 0), GRAVITY)
     do_velocity(t, velocity)
-    print(t.pos())
+    #print(t.pos())
 
 
-run_function_at_frequency(event_loop, 50, 5)
+run_function_at_frequency(event_loop, 500, 30)
