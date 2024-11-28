@@ -21,8 +21,6 @@ objs.append(SpaceObject("green", 400 + SUN_RADIUS, Velocity(3,0)))
 objs.append(SpaceObject("gray", 100 + SUN_RADIUS, Velocity(6,0)))
 
 
-print(objs)
-
 t2 = Turtle()
 t2.speed(0)
 t2.teleport(0, -SUN_RADIUS)
