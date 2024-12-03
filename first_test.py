@@ -1,4 +1,3 @@
-from event import run_function_at_frequency
 from turtle import Turtle
 from velocity import Velocity
 from spaceobject import SpaceObject, update_objects
